@@ -54,6 +54,11 @@
              for (var i = 0; i < 19; i++) {
              document.write("&nbsp");
              }
+            function sum(...args) {
+               return args.reduce((acc, x) => acc + x);
+            }
+
+            console.log(sum(10, 20, 30));      // 60
         </script>
             
             
